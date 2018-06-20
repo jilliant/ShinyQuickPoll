@@ -10,7 +10,7 @@ fields <- c("activity")
 # get current Epoch time
 epochTime <- function() {
   return(as.integer(Sys.time()))
-}
+}  
 
 # get a formatted string of the timestamp (exclude colons as they are invalid
 # characters in Windows filenames)
